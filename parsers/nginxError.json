@@ -9,7 +9,7 @@
 
   formats: [
     {
-      format: ".*$_$:$_$,", repeat: true
+      format: ".*$_$:$_{attrWhitelist=[a-b].*}$,", repeat: true
     },
     {
       format: "$timestamp=tsPattern$ \\[$severity$\\] $pid$#$tid$: \\*$cid$ "
