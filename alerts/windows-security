@@ -64,7 +64,7 @@
       },
       alerts: [
              {
-              alertAddress: "sysadmin@lge.net",
+              alertAddress: "alerts@domain.com",
               description: "#serverHost# Showing no Logs",
               gracePeriodMinutes: 0,
               renotifyPeriodMinutes: 0,
